@@ -3,7 +3,7 @@
   "id": "totemrefill",
   "version": "${version}",
   "name": "Totem Refill",
-  "description": "Press D-pad Down to move a Totem of Undying into the offhand.",
+  "description": "Move a Totem of Undying into the offhand using a controller button.",
   "authors": [
     "Totem Refill"
   ],
@@ -16,6 +16,7 @@
   "depends": {
     "fabricloader": ">=0.19.5",
     "minecraft": "~1.21.8",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "midnightcontrols": ">=1.11.2"
   }
 }
